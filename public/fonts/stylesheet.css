@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Pretendard';
+    src: url('Pretendard-Medium.eot');
+    src: url('Pretendard-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Pretendard-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('Pretendard-Bold.eot');
+    src: url('Pretendard-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Pretendard-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('Pretendard-Regular.eot');
+    src: url('Pretendard-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Pretendard-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
