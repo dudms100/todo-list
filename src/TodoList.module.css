@@ -1,0 +1,36 @@
+.todo_list li {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+.todo_list label {
+  flex-grow: 1;
+  font-size: 14px;
+}
+.todo_list li.completed label {
+  color: #ccc;
+  text-decoration: line-through;
+}
+.todo_list input[type="checkbox"] + label {
+  color: #333;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+}
+.todo_list input[type="checkbox"] + label:before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #dddddd;
+  margin-right: 6px;
+  vertical-align: -4px;
+}
+.todo_list button {
+  height: 32px;
+  color: var(--point-color1);
+  border: 1px solid var(--point-color1);
+  padding: 0 10px;
+  background: none;
+  border-radius: 4px;
+}

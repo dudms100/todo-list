@@ -1,0 +1,19 @@
+.todo_add input[type="text"] {
+  width: calc(100% - 60px);
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.todo_add input[type="text"]::-webkit-input-placeholder {
+  color: #b1b1b1;
+}
+
+.todo_add button {
+  height: 40px;
+  border-radius: 4px;
+  background: #333;
+  color: #fff;
+  padding: 0 10px;
+  border: none;
+  margin-left: 10px;
+}
